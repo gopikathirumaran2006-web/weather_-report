@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Weather Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Dynamic background image -->
+    <img id="bg-image" src="images/background.jpg.jpg" alt="Background">
+
+    <div class="content" id="reportContent">
+      <h1>Weather Report</h1>
+
+      <!-- Weather Icon -->
+      <div id="weatherIcon" style="font-size: 60px; margin: 10px;"></div>
+
+      <!-- Weather Info -->
+      <div id="weatherInfo"></div>
+
+      <!-- Fun Fact -->
+      <div id="funFact" style="margin-top: 15px; font-style: italic;"></div>
+
+      <!-- Search History -->
+      <h2>Search History</h2>
+      <div id="historyList" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+
+      <!-- Back button -->
+      <button onclick="goBack()">← Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
